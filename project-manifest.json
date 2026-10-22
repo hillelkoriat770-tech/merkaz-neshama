@@ -1,0 +1,11 @@
+{
+  "project": "מרכז נשמה",
+  "version": "0.1.0",
+  "language": "he",
+  "direction": "rtl",
+  "status": "starter scaffold; not production-ready",
+  "google_login": "Supabase OAuth scaffold; credentials must be configured by owner",
+  "payments": "not implemented",
+  "zoom": "not implemented",
+  "video_hosting": "not implemented"
+}
