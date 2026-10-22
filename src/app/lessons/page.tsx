@@ -1,0 +1,3 @@
+export const metadata = {title:'שיעורים'};
+const items=[{title:'יסודות הלימוד',category:'מבוא'},{title:'שיעור שבועי',category:'שיעור מוקלט'},{title:'סדרת העמקה',category:'סדרה'}];
+export default function LessonsPage(){return <section className="hero"><span className="eyebrow">ספריית תוכן</span><h1>שיעורים</h1><p className="lead">הפריטים כרגע הם דוגמאות בלבד; עדיין לא מחובר וידאו או מסד נתונים.</p><div className="grid">{items.map(x=><article className="card" key={x.title}><span className="pill">{x.category}</span><h2>{x.title}</h2><p>כרטיס הדגמה — יש להחליף בתוכן מאושר.</p></article>)}</div></section>}
